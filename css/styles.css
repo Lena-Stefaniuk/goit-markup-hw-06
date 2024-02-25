@@ -15,6 +15,12 @@ body {
   color: #434455;
   background: #ffffff;
 }
+.container {
+  max-width: 1128px;
+ padding: 0 15px;
+ margin: 0 auto;
+
+}
 /* ===/common styles=== */
 /* ===page header styles=== */
 .logo {
@@ -70,6 +76,9 @@ body {
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
+}
+.nav-list {
+  display: flex;
 }
 /* ===/page header styles=== */
 /* ===hero section styles=== */
