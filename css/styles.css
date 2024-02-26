@@ -16,13 +16,19 @@ body {
   background: #ffffff;
 }
 .container {
-  max-width: 1128px;
+max-width: 1158px;
  padding: 0 15px;
  margin: 0 auto;
-
+}
+img {
+  display: block;
 }
 /* ===/common styles=== */
 /* ===page header styles=== */
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+
+}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -77,8 +83,22 @@ body {
 .contacts-link:focus {
   color: #404bbf;
 }
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
 .nav-list {
   display: flex;
+  gap: 40px;
+}
+.logo {
+  margin-right: 76px;
+}
+
+.contacts-list {
+display: flex;
+gap: 40px;
 }
 /* ===/page header styles=== */
 /* ===hero section styles=== */
