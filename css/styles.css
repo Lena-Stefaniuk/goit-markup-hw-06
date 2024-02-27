@@ -252,6 +252,10 @@ display: none;
 }
 /* ===/team section styles=== */
 /* ===portfolio sectuion styles=== */
+
+.section-portfolio {
+  padding-top: 120px;
+}
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -260,8 +264,7 @@ display: none;
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
-  margin-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .portfolio-product {
   font-weight: 500;
@@ -283,9 +286,9 @@ display: none;
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  margin-bottom: 120px;
+  row-gap: 48px;
 }
+
 /* ===/portfolio sectuion styles=== */
 /* ===footer styles=== */
 .page-footer {
