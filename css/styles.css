@@ -24,8 +24,8 @@ body {
 }
 .container {
 max-width: 1158px;
- padding: 0 15px;
- margin: 0 auto;
+padding: 0 15px;
+margin: 0 auto;
 
  
 }
@@ -93,6 +93,9 @@ img {
 }
 .contacts {
   font-style: normal;
+  display: flex;
+  align-items: center;
+
 }
 
 .contacts-link {
@@ -122,12 +125,13 @@ img {
 }
 
 .contacts-list {
-  display: flex;
-  align-items: center;
-  gap: 40px
+display: flex;
+gap: 40px;
+
 }
 /* ===/page header styles=== */
 /* ===hero section styles=== */
+
 .section-hero {
   background: #2e2f42;
 }
@@ -138,6 +142,9 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
+  padding-bottom: 48px;
+  padding-top: 188px;
+
 }
 .button-order {
   font-family: inherit;
@@ -147,14 +154,37 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   background: #4d5ae5;
+  margin-bottom: 188px;
+  display: block;
+  margin: auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .button-order:hover,
 .button-order:focus {
   background: #404bbf;
 }
+.page-section-hero {
+  height: 600px;
+  max-width: 1440px;
+  margin-left: 140px;
+  margin-right: 140px;
+}
 /* ===/hero section styles=== */
 /* ===benefits section styles=== */
 
+.benefits {
+display: none;
+}
+
+.benefits-list {
+  display: flex;
+  gap: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .benefits-title {
   font-weight: 500;
   font-size: 20px;
@@ -182,8 +212,10 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
-.team-list {
+.team-item {
   background-color: #ffffff;
 }
 .team-name {
@@ -193,6 +225,8 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 .team-profession {
   font-weight: 400;
@@ -201,6 +235,12 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+
+.team-list {
+  display: flex;
+  gap: 24px;
+  padding-bottom: 120px;
 }
 /* ===/team section styles=== */
 /* ===portfolio sectuion styles=== */
@@ -212,6 +252,8 @@ img {
   text-transform: capitalize;
   text-align: center;
   color: #2e2f42;
+  margin-top: 120px;
+  padding-bottom: 72px;
 }
 .portfolio-product {
   font-weight: 500;
@@ -219,6 +261,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .portfolio-text {
   font-weight: 400;
@@ -227,10 +271,18 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 120px;
+}
 /* ===/portfolio sectuion styles=== */
 /* ===footer styles=== */
 .page-footer {
   background: #2e2f42;
+  padding: 100px 0;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
@@ -240,6 +292,8 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo:hover,
