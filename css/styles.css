@@ -75,17 +75,16 @@ img {
 .nav-list {
   column-gap: 40px;
 }
-.nav-list-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
 
 .nav-list-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
   
 }
 
