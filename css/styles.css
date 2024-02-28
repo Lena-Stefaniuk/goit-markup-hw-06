@@ -36,9 +36,11 @@ img {
 /* ===page header styles=== */
 .page-header {
   border-bottom: 1px solid #e7e9fc;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .page-header-container {
-  display: flex;
+  display: block;
   justify-content: space-between;
   padding: 0 15px;
 }
@@ -86,9 +88,7 @@ img {
  column-gap: 40px;
 }
 .nav-list-item {
-  display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 .contacts {
   font-style: normal;
