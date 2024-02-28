@@ -87,7 +87,8 @@ img {
 }
 .nav-list-item {
   display: block;
-  padding: 24px 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .contacts {
   font-style: normal;
