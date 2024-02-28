@@ -86,7 +86,7 @@ img {
  column-gap: 40px;
 }
 .nav-list-item {
-  display: block;
+  display: flex;
   padding-top: 24px;
   padding-bottom: 24px;
 }
