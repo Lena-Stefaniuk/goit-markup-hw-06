@@ -55,6 +55,7 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   margin-right: 76px;
+
 }
 
 .logo:hover,
@@ -74,6 +75,8 @@ img {
 
 .nav-list {
   column-gap: 40px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-list-link {
@@ -83,17 +86,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  
 }
 
 .nav-list-link:hover,
 .nav-list-link:focus {
   color: #404bbf;
 }
-
-
 
 .contacts {
   font-style: normal;
@@ -148,6 +146,7 @@ gap: 40px;
   text-align: center;
   color: #ffffff;
   max-width: 496px;
+  margin: auto;
 }
 .button-order {
   font-family: inherit;
