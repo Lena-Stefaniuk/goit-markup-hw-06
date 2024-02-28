@@ -87,16 +87,14 @@ img {
 
 .nav-list {
  column-gap: 40px;
-}
-.nav-list-item {
-padding-top: 24px;
+ padding-top: 24px;
 padding-bottom: 24px;
 }
+
 .contacts {
   font-style: normal;
   display: flex;
   align-items: center;
-
 }
 
 .contacts-link {
