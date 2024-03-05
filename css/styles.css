@@ -386,7 +386,7 @@ margin-bottom: 8px;
 position: relative;
 overflow: hidden;
 }
-.portfolio-overlay {
+.portfolio-overlay-text {
 position: absolute;
 top: 0;
 left: 0;
@@ -400,7 +400,7 @@ transition: transform 250ms linear;
 padding: 40px 32px 164px 32px;
 }
 
-.portfolio-item:hover  .portfolio-overlay {
+.portfolio-item:hover  .portfolio-overlay-text {
   transform: translateY(0%);
  
 }
