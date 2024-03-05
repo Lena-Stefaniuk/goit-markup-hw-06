@@ -327,7 +327,7 @@ margin-bottom: 8px;
 .social-link-icon:hover,
 .social-link-icon:focus {
   border-radius: 50%;
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .team-list {
@@ -400,7 +400,7 @@ transition: transform 250ms linear;
 padding: 40px 32px 164px 32px;
 }
 
-.portfolio-item:hover  .portfolio-overlay-text {
+.portfolio-item:hover .portfolio-overlay-text {
   transform: translateY(0%);
  
 }
