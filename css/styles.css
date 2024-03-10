@@ -508,8 +508,8 @@ margin-right: 80px;
   background-color: #31d0aa;
 }
 .footer-three {
+  display: block;
   width: 453px;
-  display: flex;
   justify-content: center;
   align-items: row;
 }
