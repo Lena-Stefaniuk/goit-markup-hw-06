@@ -521,6 +521,10 @@ margin-right: 80px;
   color: #ffffff;
   margin-bottom: 16px;
 }
+.footer-subscribe-form {
+  display: flex;
+  align-items: row;
+}
 .footer-subscribe-input{
   border: 1px solid #ffffff;
   border-radius: 4px;
