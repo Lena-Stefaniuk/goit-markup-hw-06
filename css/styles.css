@@ -685,12 +685,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(-50%);
   width: 18px;
   height: 24px;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 .review-form-input:focus-within + .review-form-field-icon {
   fill: #4d5ae5;
-  transition: fill 250ms linear;
-
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .review-form-input:focus {
