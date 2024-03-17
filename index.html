@@ -35,6 +35,11 @@
             </li>
           </ul>
         </nav>
+        <button class="menu-open-button" type="button">
+          <svg class="menu-open-button-icon" width="18" height="16">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
         <address class="contacts">
           <ul class="contacts-list">
             <li class="contacts-list-item">
@@ -63,8 +68,8 @@
           <h2 class="visually-hidden">Our benefits</h2>
           <ul class="benefits-list">
             <li class="benefits-item">
-              <div class="container benefits-icon">
-                <svg width="64" height="64">
+              <div class="benefits-icon">
+                <svg class="icon" weidth="64" height="64">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
@@ -75,8 +80,8 @@
               </p>
             </li>
             <li class="benefits-item">
-              <div class="container benefits-icon">
-                <svg width="64" height="64">
+              <div class="benefits-icon">
+                <svg class="icon" weidth="64" height="64">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
@@ -87,8 +92,8 @@
               </p>
             </li>
             <li class="benefits-item">
-              <div class="container benefits-icon">
-                <svg width="64" height="64">
+              <div class="benefits-icon">
+                <svg class="icon" weidth="64" height="64">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
@@ -99,8 +104,8 @@
               </p>
             </li>
             <li class="benefits-item">
-              <div class="container benefits-icon">
-                <svg width="64" height="64">
+              <div class="benefits-icon">
+                <svg class="icon" weidth="64" height="64">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
@@ -114,17 +119,18 @@
         </div>
       </section>
       <section class="section-team">
-        <div class="container">
-          <h2 class="team-title">Our Team</h2>
+        <div class="container team-container">
+          <h2 class="section-title">Our Team</h2>
           <ul class="team-list">
             <li class="team-item">
               <img
+              srcset="./images/img1@1x.jpg 1x, ./images/img1@2x.jpg 2x"
                 src="./images/img1.jpg"
                 alt="Product Designer avatar"
                 width="264"
                 height="260"
               />
-              <div class="container team-position">
+              <div class="container-team-position">
                 <h3 class="team-name">Mark Guerrero</h3>
                 <p class="team-profession">Product Designer</p>
 
@@ -183,12 +189,13 @@
 
             <li class="team-item">
               <img
+              srcset="./images/img2@1x.jpg 1x, ./images/img2@2x.jpg 2x"
                 src="./images/img2.jpg"
                 alt="Frontend Developer avatar"
                 width="264"
                 height="260"
               />
-              <div class="container team-position">
+              <div class="container-team-position">
                 <h3 class="team-name">Tom Ford</h3>
                 <p class="team-profession">Frontend Developer</p>
                 <ul class="social-list-icon">
@@ -245,12 +252,13 @@
             </li>
             <li class="team-item">
               <img
+              srcset="./images/img3@1x.jpg 1x, ./images/img3@2x.jpg 2x"
                 src="./images/img3.jpg"
                 alt="Marketing avatar"
                 width="264"
                 height="260"
               />
-              <div class="container team-position">
+              <div class="container-team-position">
                 <h3 class="team-name">Camila Garcia</h3>
                 <p class="team-profession">Marketing</p>
                 <ul class="social-list-icon">
@@ -307,12 +315,13 @@
             </li>
             <li class="team-item">
               <img
+              srcset="./images/img4@1x.jpg 1x, ./images/img4@2x.jpg 2x"
                 src="./images/img4.jpg"
                 alt="UI Designer avatar"
                 width="264"
                 height="260"
               />
-              <div class="container team-position">
+              <div class="container-team-position">
                 <h3 class="team-name">Daniel Wilson</h3>
                 <p class="team-profession">UI Designer</p>
                 <ul class="social-list-icon">
@@ -372,7 +381,7 @@
       </section>
       <section class="section-portfolio">
         <div class="container">
-          <h2 class="portfolio-title">Our Portfolio</h2>
+          <h2 class="section-title">Our Portfolio</h2>
           <ul class="portfolio-list">
             <li class="portfolio-item">
               <div class="img-overlay">
@@ -570,7 +579,7 @@
             <button class="footer-button" type="submit">
               Subscribe
               <svg class="footer-button-icon" width="24" height="24">
-                <use href="./images/symbol-defs.svg#icon-send"></use>
+                <use href="./images/icons.svg#icon-send"></use>
               </svg>
             </button>
           </form>
@@ -669,12 +678,104 @@
                   <use href="./images/icons.svg#icon-checkmark"></use>
                 </svg>
               </span>
+              <span>
               I accept the terms and conditions of the
               <a class="privacy-policy-link">Privacy Policy</a></label
             >
+            </span>
           </div>
           <button class="review-form-submit-button" type="button">Send</button>
         </form>
+      </div>
+    </div>
+    <div class="mobile-menu is-open">
+      <div class="container mobile-menu-container">
+        <button class="mobile-menu-close-button">
+          <svg class="mobile-menu-close-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
+        <nav class="mobile-nav-contacts">
+          <ul class="mobile-nav-menu">
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-list-link current" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-list-link" href="">Portfolio</a>
+            </li>
+            <li class="mobile-nav-item">
+              <a class="mobile-nav-list-link" href="">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="mobile-contacts">
+          <ul class="mobile-contacts-list">
+            <li class="mobile-contacts-item">
+              <a class="mobile-contacts-link tel" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-contacts-item">
+              <a class="mobile-contacts-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <div class="mobile-list">
+          <ul class="mobile-list-icon">
+            <li class="mobile-social-item-icon">
+              <a class="mobile-social-link-icon" href=""
+                ><svg
+                  class="mobile-social-icon"
+                  width="24"
+                  height="24"
+                  aria-label="instagram icon"
+                >
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-item-icon">
+              <a class="mobile-social-link-icon" href=""
+                ><svg
+                  class="mobile-social-icon"
+                  width="24"
+                  height="24"
+                  aria-label="twitter icon"
+                >
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-item-icon">
+              <a class="mobile-social-link-icon" href=""
+                ><svg
+                  class="mobile-social-icon"
+                  width="24"
+                  height="24"
+                  aria-label="facebook icon"
+                >
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-social-item-icon">
+              <a class="mobile-social-link-icon" href=""
+                ><svg
+                  class="mobile-social-icon"
+                  width="24"
+                  height="24"
+                  aria-label="linkedin icon"
+                >
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
