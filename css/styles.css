@@ -138,6 +138,7 @@ img {
   .nav-list,
   .contacts {
     display: flex;
+    font-style: normal;
   }
   .menu-open-button {
     display: none;
